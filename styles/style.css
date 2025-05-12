@@ -245,15 +245,15 @@
 }
 
 .button:focus-visible {
-  box-shadow: 5px 5px 0 0 currentColor;
+  box-shadow: 2px 2px 0 0 currentColor;
 }
 
 .button:focus {
-  box-shadow: 5px 5px 0 0 currentColor;
+  box-shadow: 2px 2px 0 0 currentColor;
 }
 
 .button:focus-within {
-  box-shadow: 5px 5px 0 0 currentColor;
+  box-shadow: 2px 2px 0 0 currentColor;
 }
 
 .card__like-button {
