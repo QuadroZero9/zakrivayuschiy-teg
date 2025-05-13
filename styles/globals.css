@@ -6,6 +6,7 @@
 *::after,
 *::before {
   box-sizing: border-box;
+  font-size: 18px;
 }
 
 body {
@@ -21,8 +22,7 @@ h6,
 p,
 ul,
 ol,
-li,
-blockquote {
+li {
   margin: 0;
   padding: 0;
 }
@@ -33,18 +33,9 @@ a {
 
 button,
 input {
-  padding: 0;
-
   color: currentColor;
   font-family: inherit;
   font-size: inherit;
-  font-weight: inherit;
-
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
-
-  appearance: none;
 }
 
 ul,
