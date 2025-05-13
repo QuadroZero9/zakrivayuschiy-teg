@@ -1,1 +1,1 @@
-https://github.com/EgorKhresin/zakrivayuschiy-teg/tree/final
+https://github.com/QuadroZero9/zakrivayuschiy-teg/tree/final
