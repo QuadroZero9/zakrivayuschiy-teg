@@ -1,18 +1,20 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-    --bg-color: #000000;
-    --accent-color: #00cc14;
-    --accent-color-rgb: 0, 204, 20;
-    --bg-image: url(../svg/pattern-dark.svg);
-    --main-font: 'Inter-Variable';
-    --accent-font: 'PressStart2P';
-    --normal-font-weight: 465;
-    --bold-font-weight: 785;
-    --content-width: clamp(20.833rem, 14.554rem + 30.141vw, 38.667rem);
-    --fill-contour-color: #00cc14;
-    --fill-core-color: #FFFFFF;
-    --gradient-bg: repeating-linear-gradient(0deg, #00cc14, #00cc14 2px, transparent 2px, transparent 4px),
-        repeating-linear-gradient(90deg, #00cc14, #00cc14 2px, transparent 2px, transparent 4px),
-        linear-gradient(#007f0c, #004306);
-    --btn-text-color: #00cc14;
+  --accent-font: 'Press Start 2P';
+  --basic-font: 'Inter';
+  --regular-weight-accent: 400;
+  --regular-weight: 400;
+  --bold-weight: 700;
+  --bg-color: #fff;
+  --accent-color: #000;
+  --heart-color: #ff0000;
+  --bg-strip: 2px;
+  --graddient-first-color: #d3d3d3;
+  --graddient-second-color: #e7e7e7;
+  --graddient-third-color: #1a1a1a;
+  --bg-gradient: 
+  repeating-linear-gradient(90deg, var(--graddient-first-color) 0, var(--graddient-first-color) 2px, transparent 2px, transparent 4px), 
+  repeating-linear-gradient(var(--graddient-first-color) 0, var(--graddient-first-color) 2px, transparent 2px, transparent 4px), 
+  linear-gradient(var(--graddient-second-color), var(--graddient-second-color) 0.01%, var(--graddient-third-color));
+    --text-animate-color: #fff;
 }
