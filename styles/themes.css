@@ -13,10 +13,24 @@
   --graddient-first-color: #d3d3d3;
   --graddient-second-color: #e7e7e7;
   --graddient-third-color: #1a1a1a;
-  --bg-gradient: 
-  repeating-linear-gradient(90deg, var(--graddient-first-color) 0, var(--graddient-first-color) 2px, transparent 2px, transparent 4px), 
-  repeating-linear-gradient(var(--graddient-first-color) 0, var(--graddient-first-color) 2px, transparent 2px, transparent 4px), 
-  linear-gradient(var(--graddient-second-color), var(--graddient-second-color) 0.01%, var(--graddient-third-color));
+  --bg-gradient: repeating-linear-gradient(
+      90deg,
+      var(--graddient-first-color) 0,
+      var(--graddient-first-color) 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    repeating-linear-gradient(
+      var(--graddient-first-color) 0,
+      var(--graddient-first-color) 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    linear-gradient(
+      var(--graddient-second-color),
+      var(--graddient-second-color) 0.01%,
+      var(--graddient-third-color)
+    );
   --text-animate-color: #fff;
 }
 
@@ -28,15 +42,24 @@
   --graddient-first-color: #000;
   --graddient-second-color: #007f0c;
   --graddient-third-color: #004306;
-  --bg-gradient: 
-  repeating-linear-gradient(90deg, var(--graddient-first-color) 0, var(--graddient-first-color) 2px, transparent 2px, transparent 4px), 
-  repeating-linear-gradient(var(--graddient-first-color) 0, var(--graddient-first-color) 2px, transparent 2px, transparent 4px), 
-  linear-gradient(var(--graddient-second-color), var(--graddient-third-color));
-    --text-animate-color: #00cc14;
+  --bg-gradient: repeating-linear-gradient(
+      90deg,
+      var(--graddient-first-color) 0,
+      var(--graddient-first-color) 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    repeating-linear-gradient(
+      var(--graddient-first-color) 0,
+      var(--graddient-first-color) 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    linear-gradient(var(--graddient-second-color), var(--graddient-third-color));
+  --text-animate-color: #00cc14;
 }
 
 @media (prefers-color-scheme: dark) {
-
   :root {
     --bold-weight: 785;
     --regular-weight: 465;
@@ -45,10 +68,23 @@
     --graddient-first-color: #000;
     --graddient-second-color: #007f0c;
     --graddient-third-color: #004306;
-    --bg-gradient: 
-  repeating-linear-gradient(90deg, var(--graddient-first-color) 0, var(--graddient-first-color) 2px, transparent 2px, transparent 4px), 
-  repeating-linear-gradient(var(--graddient-first-color) 0, var(--graddient-first-color) 2px, transparent 2px, transparent 4px), 
-  linear-gradient(var(--graddient-second-color), var(--graddient-third-color));
+    --bg-gradient: repeating-linear-gradient(
+        90deg,
+        var(--graddient-first-color) 0,
+        var(--graddient-first-color) 2px,
+        transparent 2px,
+        transparent 4px
+      ),
+      repeating-linear-gradient(
+        var(--graddient-first-color) 0,
+        var(--graddient-first-color) 2px,
+        transparent 2px,
+        transparent 4px
+      ),
+      linear-gradient(
+        var(--graddient-second-color),
+        var(--graddient-third-color)
+      );
     --text-animate-color: #00cc14;
   }
 }

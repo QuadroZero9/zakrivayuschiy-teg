@@ -1,7 +1,7 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-  --accent-font: 'Press Start 2P';
-  --basic-font: 'Inter';
+  --accent-font: "Press Start 2P";
+  --basic-font: "Inter";
   --regular-weight-accent: 400;
   --regular-weight: 400;
   --bold-weight: 700;
@@ -12,9 +12,23 @@
   --graddient-first-color: #d3d3d3;
   --graddient-second-color: #e7e7e7;
   --graddient-third-color: #1a1a1a;
-  --bg-gradient: 
-  repeating-linear-gradient(90deg, var(--graddient-first-color) 0, var(--graddient-first-color) 2px, transparent 2px, transparent 4px), 
-  repeating-linear-gradient(var(--graddient-first-color) 0, var(--graddient-first-color) 2px, transparent 2px, transparent 4px), 
-  linear-gradient(var(--graddient-second-color), var(--graddient-second-color) 0.01%, var(--graddient-third-color));
-    --text-animate-color: #fff;
+  --bg-gradient: repeating-linear-gradient(
+      90deg,
+      var(--graddient-first-color) 0,
+      var(--graddient-first-color) 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    repeating-linear-gradient(
+      var(--graddient-first-color) 0,
+      var(--graddient-first-color) 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    linear-gradient(
+      var(--graddient-second-color),
+      var(--graddient-second-color) 0.01%,
+      var(--graddient-third-color)
+    );
+  --text-animate-color: #fff;
 }
