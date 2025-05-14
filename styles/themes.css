@@ -5,54 +5,27 @@
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
 
-.page.theme-light {
-  --normal-wght: 400;
-  --bold-wght: 700;
-
-  --bg-color: #FFF;
-  --accent-color: #000;
-  --card-button: #FFF;
-
-  --bg-image: repeating-linear-gradient(to left, #d3d3d3 0 2px, transparent 2px 4px),
-    repeating-linear-gradient(#d3d3d3 0 2px, transparent 2px 4px),
-    linear-gradient(#e7e7e7 0.01%, #1a1a1a);
-
-  --heart-contour: #000;
-  --label-shadow: #FFF;
-}
-
-
-.page.theme-dark {
-  --normal-wght: 465;
-  --bold-wght: 785;
-
-  --bg-color: #000;
-  --accent-color: #00CC14;
-  --card-button: #00CC14;
-
-  --bg-image: repeating-linear-gradient(to left, #000 0 2px, transparent 2px 4px),
-    repeating-linear-gradient(#000 0 2px, transparent 2px 4px),
-    linear-gradient(#007f0c 0.01%, #004306);
-
-  --heart-contour: #00CC14;
-  --label-shadow: #000;
-}
-
+:root.page.theme-dark {
+  --bg-pattern: url(./svg/pattern-dark.svg);
+  }
+  .page.theme-light {
+  --bg-pattern: url(./svg/pattern-light.svg);
+  }
 
 @media (prefers-color-scheme: dark) {
+
   :root {
-    --normal-wght: 465;
-    --bold-wght: 785;
-
+    --bold-weight: 785;
+    --regular-weight: 465;
     --bg-color: #000;
-    --accent-color: #00CC14;
-    --card-button: #00CC14;
-
-    --bg-image: repeating-linear-gradient(to left, #000 0 2px, transparent 2px 4px),
-      repeating-linear-gradient(#000 0 2px, transparent 2px 4px),
-      linear-gradient(#007f0c 0.01%, #004306);
-
-    --heart-contour: #00CC14;
-    --label-shadow: #000;
+    --accent-color: #00cc14;
+    --graddient-first-color: #000;
+    --graddient-second-color: #007f0c;
+    --graddient-third-color: #004306;
+    --bg-gradient: 
+  repeating-linear-gradient(90deg, var(--graddient-first-color) 0, var(--graddient-first-color) 2px, transparent 2px, transparent 4px), 
+  repeating-linear-gradient(var(--graddient-first-color) 0, var(--graddient-first-color) 2px, transparent 2px, transparent 4px), 
+  linear-gradient(var(--graddient-second-color), var(--graddient-third-color));
+    --text-animate-color: #00cc14;
   }
 }
