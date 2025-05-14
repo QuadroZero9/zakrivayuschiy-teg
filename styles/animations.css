@@ -27,7 +27,6 @@
   transition-delay: 0.05s;
 }
 
-
 .card__icon-button:active .like-icon .core {
   fill: var(--themes-accent-color);
 }
@@ -40,7 +39,7 @@
   fill: var(--themes-main-color);
 }
 
-.card__icon-button:hover .like-icon:not(.is-liked) .core{
+.card__icon-button:hover .like-icon:not(.is-liked) .core {
   fill: var(--themes-main-color);
 }
 
@@ -60,7 +59,7 @@
   fill: var(--themes-accent-color);
   transition-timing-function: linear;
   transition-delay: 0;
-  transition-duration: .3s;
+  transition-duration: 0.3s;
 }
 
 .like-icon.is-liked .core {
@@ -101,7 +100,7 @@
 
 @keyframes border {
   0% {
-    border-bottom: none
+    border-bottom: none;
   }
   100% {
     border-bottom: 2px solid var(--themes-main-color);
