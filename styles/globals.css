@@ -32,18 +32,9 @@ a {
 
 button,
 input {
-  padding: 0;
-
   color: currentColor;
   font-family: inherit;
   font-size: inherit;
-  font-weight: inherit;
-
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
-
-  appearance: none;
 }
 
 ul,
@@ -60,3 +51,5 @@ ol {
   clip-path: inset(50%);
   white-space: nowrap;
 }
+
+/* * { outline: 1px solid orange; } */
