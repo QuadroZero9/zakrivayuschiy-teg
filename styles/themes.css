@@ -5,55 +5,36 @@
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
 :root.theme-dark {
-  --bg-color: #000;
-  --border-color: #00cc14;
-  --accent-color: #00cc14;
-  --linear-gradient-first: #007f0c;
-  --linear-gradient-second: #004306;
-  --mix-blend-color: #00cc14;
-  --stroke-color: #000;
-  --header-weight: 785;
-  --text-weight: 465;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg-color: #000;
-    --mix-blend-color: #00cc14;
-    --border-color: #00cc14;
-    --accent-color: #00cc14;
-    --linear-gradient-first: #007f0c;
-    --linear-gradient-second: #004306;
-    --stroke-color: #000;
-    --header-weight: 785;
-    --text-weight: 465;
-  }
-}
-
+    --themes-background: #000;
+    --themes-main-color: #00CC14;
+    --wght-regular: 400;
+    --wght-bold: 785;
+    --gradient-color: #000;
+    --gradient-color2: #007f0c;
+    --gradient-color3: #004306; 
+    --blend-content-color: var(--themes-main-color);
+  } 
+  
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --themes-background: #000;
+      --themes-main-color: #00CC14;
+      --wght-regular: 400;
+      --wght-bold: 785; 
+      --gradient-color: #000;
+      --gradient-color2: #007f0c;
+      --gradient-color3: #004306;
+      --blend-content-color: var(--themes-main-color);
+  } 
+}  
 :root.theme-light {
-  --border-color: #000;
-  --bg-color: #d3d3d3;
-  --linear-gradient-first: #e7e7e7;
-  --linear-gradient-second: #1a1a1a;
-  --accent-color: #000;
-  --mix-blend-color: #fff;
-  --border-color: #000;
-  --stroke-color: #fff;
-  --header-weight: 700;
-  --text-weight: 400;
+    --themes-background: #fff;
+    --themes-main-color: #000;
+    --wght-regular: 400;
+    --wght-bold: 700;
+    --gradient-color: #d3d3d3;
+    --gradient-color2: #e7e7e7;
+    --gradient-color3: #1a1a1a;
+    --blend-content-color: var(--themes-background);
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    --border-color: #000;
-    --bg-color: #d3d3d3;
-    --linear-gradient-first: #e7e7e7;
-    --mix-blend-color: #fff;
-    --linear-gradient-second: #1a1a1a;
-    --accent-color: #000;
-    --border-color: #000;
-    --stroke-color: #fff;
-    --header-weight: 700;
-    --text-weight: 400;
-  }
-}
