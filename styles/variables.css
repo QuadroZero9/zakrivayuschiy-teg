@@ -1,16 +1,15 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-  --main-font: 'Inter-Variable', sans-serif;
-  --accent-font: 'PressStart2P-Regular', 'fantasy';
+  --main-font: "Inter-Variable", sans-serif;
+  --accent-font: "PressStart2P-Regular", "fantasy";
   --text-font-weight: 400;
   --title-font-weight: 700;
   --bg-color: #fff;
   --accent-bg-color: #fff;
   --text-color: #000;
-  --spark-heart-color: #FF0000;
-  --bg-gradient: repeating-linear-gradient(#d3d3d3 0 2px, transparent 2px 4px), 
-  repeating-linear-gradient(90deg, #d3d3d3 0 2px, transparent 2px 4px), 
-  linear-gradient(#e7e7e7 0.01%, #1a1a1a );
+  --spark-heart-color: #ff0000;
+  --bg-gradient: repeating-linear-gradient(#d3d3d3 0 2px, transparent 2px 4px),
+    repeating-linear-gradient(90deg, #d3d3d3 0 2px, transparent 2px 4px),
+    linear-gradient(#e7e7e7 0.01%, #1a1a1a);
   --text-shadow-color: #fff;
 }
-
