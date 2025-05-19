@@ -35,10 +35,15 @@ input {
   color: currentColor;
   font-family: inherit;
   font-size: inherit;
+  appearance: none;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 0;
 }
 
 ul,
-li,
 ol {
   list-style: none;
 }
